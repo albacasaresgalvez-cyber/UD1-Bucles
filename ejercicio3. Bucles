@@ -1,0 +1,27 @@
+Algoritmo ejercicio3
+	Definir i, numero, cantidad, mayores, menores, iguales  Como Real
+	mayores<- 0
+	menores<- 0
+	iguales<- 0
+	
+	Escribir "Cuantos números vas a introducir"
+	Leer cantidad
+	
+	Para i<-1 Hasta cantidad Hacer
+		Escribir "Introduce numero"
+		Leer numero
+		Si  numero > 0 Entonces 
+			mayores<- mayores + 1
+		Sino
+			Si numero < 0 Entonces
+				menores<- menores + 1
+			Sino 
+				iguales<- iguales + 1
+			FinSi
+			
+		FinSi
+	Fin Para
+	Escribir "Mayores que 0: ", mayores
+    Escribir "Menores que 0: ", menores
+	Escribir "Iguales a 0:", iguales
+FinAlgoritmo

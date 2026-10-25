@@ -1,0 +1,10 @@
+Algoritmo ejercicio5
+	Definir num1, num2, i Como Entero 
+	Escribir "Entre que dos numeros quieres introduvcir los pares: "
+	Leer num1, num2
+	Para i<- num1 Hasta num2 Hacer
+		Si i % 2 = 0 Entonces 
+			Escribir i ", "
+		FinSi
+	Fin Para
+FinAlgoritmo
